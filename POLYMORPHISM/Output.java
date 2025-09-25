@@ -2,10 +2,9 @@ package POLYMORPHISM;
 
 public class Output {
     public static void main(String[] args) {
-        // Object Balok
+        
         Balok balok = new Balok(5, 3, 2);
 
-        // Object Kubus
         Kubus kubus = new Kubus(4);
 
         System.out.println("============"); 
@@ -21,3 +20,4 @@ public class Output {
         System.out.println("Luas Permukaan Kubus : " + kubus.hitungLuasPermukaan());
     }
 }
+
